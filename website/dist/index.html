@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#234c3a">
+  <meta name="description" content="乡遇一线，以庄河农耕记忆、田野观察、草莓产业与新农人故事为线索的乡村文化数字导览。">
+  <title>乡遇一线 · 庄河乡土旅程</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="乡遇一线首页"><span class="brand-symbol" aria-hidden="true">乡</span><span>乡遇一线<small>XIANGYU YIXIAN</small></span></a>
+    <nav class="desktop-nav" aria-label="主导航"><a href="#journey">选一条路线</a><a href="#places">打开点位册</a><a href="#journal">我的旅行手账</a></nav>
+    <button class="header-note" id="open-info"><span class="icon" data-icon="info"></span><span>出发前读一读</span></button>
+  </header>
+  <main id="main">
+    <section class="hero section-width" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="tiny-dot"></span> 辽宁 · 大连 · 庄河 <span class="eyebrow-line"></span> 乡土观察计划</div>
+        <p class="hero-kicker">把分散的文化点位，串成一次体验</p>
+        <h1 id="hero-title">在庄河，<br>沿着一颗草莓<br><span>读懂乡土。</span></h1>
+        <p class="hero-description">从农具的旧时光，到田野里的新日常。<br>让一次发现，连起土地、劳动与生活。</p>
+        <div class="hero-actions"><a class="button primary" href="#journey">开启乡土旅程 <span class="icon" data-icon="arrow-right"></span></a><button class="text-button" data-open-stop="folk">先听一个故事 <span aria-hidden="true">↗</span></button></div>
+        <div class="hero-footnote"><span class="line-symbol" aria-hidden="true">⌁</span><p><strong>4 个主题场景 · 1 本旅行手账</strong><small>可随时开启的线上文化体验</small></p></div>
+      </div>
+      <div class="hero-visual"><img class="hero-photo" src="assets/greenhouse.webp" alt="前期调研照片：棚架下的草莓植株" fetchpriority="high"><div class="photo-shade"></div>
+        <div class="photo-heading"><span>FIELD NOTES / ZHUANGHE</span><span class="round-tag">乡<br>遇</span></div>
+        <div class="photo-bottom"><span class="photo-index">03 / 04</span><h2>一颗红颜，<br>一方水土。</h2><p>从前期实践影像里，发现庄河。</p></div>
+        <div class="floating-memory"><img src="assets/museum-room.webp" alt="民俗博物馆里的乡土生活展陈"><div><span>故事的起点</span><strong>农耕记忆</strong><small>让器物重新连接生活</small></div><span class="memory-arrow" aria-hidden="true">↗</span></div>
+      </div>
+    </section>
+    <div class="story-ribbon" aria-hidden="true"><div>农耕记忆 <span>＋</span> 田野观察 <span>＋</span> 草莓产业 <span>＋</span> 新农人故事 <span>⌁</span> 一路读懂庄河</div></div>
+    <section class="journey-section section-width" id="journey" aria-labelledby="journey-title">
+      <div class="section-heading"><div><p class="section-kicker">01 / 一线串起乡土</p><h2 id="journey-title">选一条线，慢慢认识这里。</h2></div><p class="section-aside">每一站，都是理解庄河的一个入口。<br>按你的兴趣，开启这段线上旅程。</p></div>
+      <div class="route-options" id="route-options" role="group" aria-label="选择主题路线"></div>
+      <div class="route-board"><div class="route-board-intro"><div><span class="route-caption">本次体验路线</span><h3 id="route-title"></h3><p id="route-description"></p></div><button class="edit-route" id="edit-route"><span class="icon" data-icon="sliders"></span> 调整顺序</button></div><ol class="route-line" id="route-line" aria-label="体验顺序"></ol><div class="route-board-footer"><p><span class="icon" data-icon="info"></span> 以上为文化体验顺序。线下到访前，请核实各场景的地点与交通。</p><button class="button primary" id="start-route">从第一站开始 <span class="icon" data-icon="arrow-right"></span></button></div></div>
+    </section>
+    <section class="places-section" id="places" aria-labelledby="places-title"><div class="section-width"><div class="section-heading"><div><p class="section-kicker">02 / 打开乡土点位册</p><h2 id="places-title">值得停留的，不止是风景。</h2></div><label class="search-box"><span class="icon" data-icon="search"></span><input id="search-input" type="search" placeholder="搜一段故事、一个主题" aria-label="搜索点位故事"><kbd>/</kbd></label></div>
+      <div class="filter-row"><div class="filters" id="category-filters" role="group" aria-label="按主题筛选"></div><button class="favorite-filter" id="favorite-filter" aria-pressed="false"><span class="icon" data-icon="bookmark"></span> 只看收藏 <span id="favorite-count">0</span></button></div>
+      <div class="places-grid" id="places-grid"></div><div class="empty-state" id="empty-state" hidden><span aria-hidden="true">⌁</span><h3>换个词，再遇见一段故事。</h3><p>试试“农具”“草莓”或“田野”，也可以查看全部点位。</p><button class="button secondary" id="reset-filters">查看全部点位</button></div>
+    </div></section>
+    <section class="journal-section section-width" id="journal" aria-labelledby="journal-title"><div class="journal-intro"><p class="section-kicker">03 / 留一点乡土在心里</p><h2 id="journal-title">把发现，<br>写成自己的记忆。</h2><p>读完一个故事，完成一个小任务，<br>就收下一枚属于这一站的印记。</p><div class="journal-progress"><strong id="completed-count">0</strong><span>/ 4<br>个主题已探索</span><div class="progress-track"><div id="progress-fill"></div></div></div><p class="privacy-note"><span class="icon" data-icon="lock"></span> 手账保存在当前浏览器中，供你自己留念。</p></div>
+      <div class="journal-paper"><div class="paper-heading"><span>我的庄河手记</span><small id="journal-date"></small></div><div class="stamps" id="journal-stamps" aria-label="探索印记"></div><label class="note-label" for="journal-note">今天，我想记住…… <span id="note-counter">0 / 300</span></label><textarea id="journal-note" maxlength="300" rows="4" placeholder="也许是一件农具的形状，也许是棚里一朵小小的草莓花。写下你看到的细节。"></textarea><div class="note-status" id="note-status" role="status">仅保存在本机</div><div class="journal-actions"><button class="button primary" id="export-card"><span class="icon" data-icon="download"></span> 带走旅行卡</button><button class="text-button" id="export-notes">导出文字手账 ↗</button></div><p class="digital-note">印记记录线上探索进度。</p></div>
+    </section>
+    <section class="before-section section-width" id="before" aria-labelledby="before-title"><div class="section-heading"><div><p class="section-kicker">04 / 带着了解再出发</p><h2 id="before-title">去田野之前，做好这些准备。</h2></div><button class="text-button" id="download-checklist">下载行前清单 <span aria-hidden="true">↗</span></button></div><div class="checklist-grid" id="travel-checklist"></div><div class="source-note"><span class="icon" data-icon="book"></span><p>故事与影像整理自前期庄河实践材料。<br class="mobile-only">场景开放与接待信息，请在出行前向相关方确认。</p><button class="text-button" id="open-sources">查看资料说明 ↗</button></div></section>
+  </main>
+  <footer class="site-footer section-width"><a class="brand" href="#home"><span class="brand-symbol" aria-hidden="true">乡</span><span>乡遇一线<small>让每一次到访，都多一份理解。</small></span></a><p>庄河 · 一颗草莓的乡土旅程<br><small>乡村文化数字导览与农文旅体验作品</small></p><a class="back-top" href="#home" aria-label="返回顶部">↑</a></footer>
+  <nav class="mobile-nav" aria-label="手机导航"><a href="#home"><span class="icon" data-icon="home"></span>首页</a><a href="#journey"><span class="icon" data-icon="route"></span>路线</a><a href="#places"><span class="icon" data-icon="book"></span>点位册</a><a href="#journal"><span class="icon" data-icon="bookmark"></span>手账</a></nav>
+  <dialog class="story-dialog" id="story-dialog" aria-labelledby="story-title"><div class="dialog-top"><span id="story-topline"></span><button class="icon-button" data-close-dialog="story-dialog" aria-label="关闭点位故事"><span class="icon" data-icon="close"></span></button></div><div id="story-content"></div></dialog>
+  <dialog class="info-dialog" id="info-dialog" aria-labelledby="info-title"><div class="dialog-top"><span>出发前读一读</span><button class="icon-button" data-close-dialog="info-dialog" aria-label="关闭资料说明"><span class="icon" data-icon="close"></span></button></div><div class="info-content"><p class="section-kicker">关于这段乡土旅程</p><h2 id="info-title">先认识，再出发。</h2><p>本作品把庄河前期实践中的民俗展陈、农田、大棚和直播助农场景，组织成一段可在线完成的文化体验。</p><div class="info-callout"><strong>按体验顺序探索</strong><p>页面连线表示故事顺序，各场景可能分布在不同区域。请在实际出行前确认完整地址、交通与接待条件。</p></div><h3>资料来源</h3><p><strong>R1 · 前期调研报告</strong><br>48 页，内容聚焦庄河红颜草莓品牌竞争力。主要引用第 5—7 页的实践场景、第 41 页的文旅融合建议。</p><p><strong>P1 · 前期实践汇报</strong><br>21 页，主要引用第 6—9、15—16 页的场景记录与影像。农田景观图的具体拍摄位置未标注。</p><h3>怎样使用这本手账</h3><p>探索任意点位，完成小任务后收下印记。收藏、路线调整、清单和文字记录保存在当前浏览器，可导出旅行卡与文字手账。</p><h3>资料与当前情况</h3><p>前期资料中的参访与直播属于既有实践记录。本作品的路线与互动为新增设计；当前场馆开放、采摘与接待情况需另行核实。</p></div></dialog>
+  <dialog class="info-dialog" id="route-dialog" aria-labelledby="route-dialog-title"><div class="dialog-top"><span>把路线交给自己</span><button class="icon-button" data-close-dialog="route-dialog" aria-label="关闭路线编辑"><span class="icon" data-icon="close"></span></button></div><div class="info-content"><p class="section-kicker">MY JOURNEY</p><h2 id="route-dialog-title">调整这次体验。</h2><p>勾选想读的主题，再调整它们的先后顺序。至少保留一个点位。</p><div id="route-editor"></div><button class="button primary full-width" id="save-route">保存我的路线</button></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

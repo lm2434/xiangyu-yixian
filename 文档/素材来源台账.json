@@ -1,0 +1,183 @@
+[
+  {
+    "name": "greenhouse",
+    "file": "photos/report-p5-2.png",
+    "source": "R1",
+    "page": 5,
+    "output": "assets/greenhouse.webp",
+    "processing": "提取原嵌入图片；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  },
+  {
+    "name": "new-farmer",
+    "file": "photos/report-p5-3.png",
+    "source": "R1",
+    "page": 5,
+    "output": "assets/new-farmer.webp",
+    "processing": "提取原嵌入图片；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  },
+  {
+    "name": "field-visit",
+    "file": "photos/report-p6-2.png",
+    "source": "R1",
+    "page": 6,
+    "output": "assets/field-visit.webp",
+    "processing": "提取原嵌入图片；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  },
+  {
+    "name": "museum-tools",
+    "file": "slides/image6.png",
+    "source": "P1",
+    "page": 6,
+    "crop": {
+      "left": 596,
+      "top": 696,
+      "width": 424,
+      "height": 270
+    },
+    "cropReferenceWidth": 2048,
+    "actualCrop": {
+      "left": 745,
+      "top": 870,
+      "width": 530,
+      "height": 338
+    },
+    "output": "assets/museum-tools.webp",
+    "processing": "从已有版面提取照片区域，保留原影像内容；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  },
+  {
+    "name": "museum-room",
+    "file": "slides/image6.png",
+    "source": "P1",
+    "page": 6,
+    "crop": {
+      "left": 1052,
+      "top": 698,
+      "width": 420,
+      "height": 264
+    },
+    "cropReferenceWidth": 2048,
+    "actualCrop": {
+      "left": 1315,
+      "top": 873,
+      "width": 525,
+      "height": 330
+    },
+    "output": "assets/museum-room.webp",
+    "processing": "从已有版面提取照片区域，保留原影像内容；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  },
+  {
+    "name": "strawberries",
+    "file": "slides/image15.png",
+    "source": "P1",
+    "page": 15,
+    "crop": {
+      "left": 505,
+      "top": 182,
+      "width": 445,
+      "height": 386
+    },
+    "cropReferenceWidth": 2048,
+    "actualCrop": {
+      "left": 631,
+      "top": 228,
+      "width": 556,
+      "height": 483
+    },
+    "output": "assets/strawberries.webp",
+    "processing": "从已有版面提取照片区域，保留原影像内容；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  },
+  {
+    "name": "farmland",
+    "file": "slides/image8.png",
+    "source": "P1",
+    "page": 8,
+    "crop": {
+      "left": 1600,
+      "top": 240,
+      "width": 448,
+      "height": 620
+    },
+    "cropReferenceWidth": 2048,
+    "actualCrop": {
+      "left": 2000,
+      "top": 300,
+      "width": 560,
+      "height": 775
+    },
+    "output": "assets/farmland.webp",
+    "processing": "从已有版面提取照片区域，保留原影像内容；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  },
+  {
+    "name": "greenhouse-wide",
+    "file": "slides/image15.png",
+    "source": "P1",
+    "page": 15,
+    "crop": {
+      "left": 506,
+      "top": 636,
+      "width": 440,
+      "height": 344
+    },
+    "cropReferenceWidth": 2048,
+    "actualCrop": {
+      "left": 633,
+      "top": 795,
+      "width": 550,
+      "height": 430
+    },
+    "output": "assets/greenhouse-wide.webp",
+    "processing": "从已有版面提取照片区域，保留原影像内容；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  },
+  {
+    "name": "fruit-variety",
+    "file": "slides/image9.png",
+    "source": "P1",
+    "page": 9,
+    "crop": {
+      "left": 14,
+      "top": 428,
+      "width": 415,
+      "height": 223
+    },
+    "cropReferenceWidth": 2048,
+    "actualCrop": {
+      "left": 18,
+      "top": 535,
+      "width": 519,
+      "height": 279
+    },
+    "output": "assets/fruit-variety.webp",
+    "processing": "从已有版面提取照片区域，保留原影像内容；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  },
+  {
+    "name": "mei-design",
+    "file": "slides/image20.png",
+    "source": "P1",
+    "page": 20,
+    "crop": {
+      "left": 570,
+      "top": 425,
+      "width": 440,
+      "height": 405
+    },
+    "cropReferenceWidth": 2048,
+    "actualCrop": {
+      "left": 713,
+      "top": 531,
+      "width": 550,
+      "height": 506
+    },
+    "output": "assets/mei-design.webp",
+    "processing": "从已有版面提取照片区域，保留原影像内容；转WebP",
+    "rights": "用户提供材料；对外发布与参赛授权需由团队确认"
+  }
+]

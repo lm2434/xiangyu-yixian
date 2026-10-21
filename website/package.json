@@ -1,0 +1,10 @@
+{
+  "name": "xiangyu-yixian-zhuanghe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "乡遇一线 · 庄河乡土文化数字导览",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check dist/app.js && node --check dist/data.js && node --check server.cjs"
+  }
+}
