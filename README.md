@@ -4,7 +4,8 @@
 
 ## 网站
 
-- [当前可访问的公开网站](https://xiangyu-yixian-zhuanghe.justfrost11.chatgpt.site)。GitHub Pages 发布后将在此补充 GitHub 地址。
+- [GitHub Pages 在线体验](https://lm2434.github.io/xiangyu-yixian/)。
+- [备用公开网站](https://xiangyu-yixian-zhuanghe.justfrost11.chatgpt.site)。
 - GitHub Pages 发布目录：[`docs/`](docs/)。打开 [`docs/index.html`](docs/index.html) 可在本机直接体验。
 - 页面包含三条主题路线、四个故事场景、自选路线、发现任务、旅行印记和可导出的手账。
 - 所有页面资源均在仓库中，网站不依赖登录、数据库或第三方地图。
