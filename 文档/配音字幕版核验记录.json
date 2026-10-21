@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-21",
+  "video": "演示视频/乡遇一线_评审演示_配音字幕版.mp4",
+  "durationSeconds": 74.7,
+  "resolution": "1920x1080",
+  "videoCodec": "H.264",
+  "audioCodec": "AAC",
+  "audioSampleRate": 44100,
+  "audioChannels": 1,
+  "subtitleLines": 17,
+  "subtitleModes": ["MP4画面烧录", "独立SRT文件"],
+  "audioMeanVolumeDb": -21.1,
+  "audioPeakVolumeDb": -1.5,
+  "checkedFramesAtSeconds": [2.5, 12, 40, 72],
+  "checks": ["浏览器可播放", "时长与尺寸", "H.264/AAC音视频流", "17段字幕排布", "音量非静音且峰值未削波", "四个画面抽查"],
+  "remainingHumanCheck": "团队完整复听普通话发音并核对专有名称",
+  "status": "technical_passed"
+}
